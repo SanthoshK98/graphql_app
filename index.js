@@ -1,10 +1,11 @@
 const express = require('express')
 const mongoose = require('mongoose')
 const app = express()
+const PORT = process.env.PORT || 5000;
 const {graphqlHTTP} = require('express-graphql')
 const schema = require('./schema/schema')
 const cors = require('cors')
-const PORT = process.env.PORT || 4000
+
 app.use(cors())
 
 const connect = async ()=>{

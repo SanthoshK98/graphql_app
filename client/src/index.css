@@ -19,7 +19,6 @@ code {
 #main {
   padding: 0px;
   box-sizing: border-box;
-  border: 2px solid red;
   width: 60%;
   height: 100%;
 }
